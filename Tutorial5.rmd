@@ -11,3 +11,10 @@ library(palmerpenguins)
 
 ```
 
+```{r}
+library(palmerpenguins)
+ggplot(penguins, aes(x = bill_depth_mm , y = flipper_length_mm, color = species)) +
+geom_point()
+2
+```
+
